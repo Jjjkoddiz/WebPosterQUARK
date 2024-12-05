@@ -4,5 +4,17 @@ body {
   position: relative;
   font-family: 'IBMPlexSans-Light';
   overflow-x: hidden;
-  background: #070707;
+  /* background: #070707; */
+}
+
+.first_screen {
+  background: url('../images/1page.png');
+}
+
+.star1 {
+  width: 3vw;
+  height: 4vw;
+  top: 5vw;
+  left: 13vw;
+  position: absolute;
 }
