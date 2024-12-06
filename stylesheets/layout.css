@@ -220,6 +220,66 @@ body {
   }
 }
 
+.star10 {
+  animation: star10 8s ease-in-out infinite;
+  /* z-index: 1; */
+}
+
+@keyframes star10 {
+  0% {
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.star11 {
+  animation: star11 3s ease-in-out infinite;
+  /* z-index: 1; */
+}
+
+@keyframes star11 {
+  0% {
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.star12 {
+  animation: star12 5s ease-in-out infinite;
+  /* z-index: 1; */
+}
+
+@keyframes star12 {
+  0% {
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
 .moon {
   margin-top: 1vw;
   margin-left: 58vw;
@@ -230,8 +290,8 @@ body {
   font-family: 'IBMPlexSans-Light';
   font-size: 3em;
   position: absolute;
-  margin-top: 12vw;
-  margin-left: 65.2vw;
+  margin-top: 12.5vw;
+  margin-left: 66vw;
 }
 
 span {
