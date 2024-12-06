@@ -6,9 +6,6 @@ body {
   background: #070707;
 }
 
-.first_screen {
-}
-
 .horizontal_block {
   display: flex;
   flex-direction: column;
@@ -43,6 +40,186 @@ body {
   height: 4vw;
 }
 
+.star1 {
+  animation: star1 5s ease-in-out infinite;
+  /* z-index: 2; */
+}
+
+@keyframes star1 {
+  0% {
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.star2 {
+  animation: star2 3s ease-in-out infinite;
+  /* z-index: 1; */
+}
+
+@keyframes star2 {
+  0% {
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.star3 {
+  animation: star3 2s ease-in-out infinite;
+  /* z-index: 1; */
+}
+
+@keyframes star3 {
+  0% {
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.star4 {
+  animation: star4 4s ease-in-out infinite;
+  /* z-index: 1; */
+}
+
+@keyframes star4 {
+  0% {
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.star5 {
+  animation: star5 4s ease-in-out infinite;
+  /* z-index: 1; */
+}
+
+@keyframes star5 {
+  0% {
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.star6 {
+  animation: star6 9s ease-in-out infinite;
+  /* z-index: 1; */
+}
+
+@keyframes star6 {
+  0% {
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.star7 {
+  animation: star7 2s ease-in-out infinite;
+  /* z-index: 1; */
+}
+
+@keyframes star7 {
+  0% {
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.star8 {
+  animation: star8 2s ease-in-out infinite;
+  /* z-index: 1; */
+}
+
+@keyframes star8 {
+  0% {
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.star9 {
+  animation: star9 6s ease-in-out infinite;
+  /* z-index: 1; */
+}
+
+@keyframes star9 {
+  0% {
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
 .moon {
   margin-top: 1vw;
   margin-left: 58vw;
@@ -51,7 +228,7 @@ body {
 
 .text {
   font-family: 'IBMPlexSans-Light';
-  font-size: 3.5em;
+  font-size: 3em;
   position: absolute;
   margin-top: 12vw;
   margin-left: 65.2vw;
@@ -72,4 +249,75 @@ span {
 span:hover {
   background-size: 100% 100%;
   filter: drop-shadow(0 0 5px #f9f7f1);
+}
+
+.submarine {
+  width: 54vw;
+  height: 32vw;
+  margin-top: 4vw;
+  margin-left: 7vw;
+}
+
+.sea {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: url('../images/wave.svg');
+  background-size: 1000px 100px;
+}
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.wave.wave1 {
+  animation: animate 30s linear infinite;
+  z-index: 1000;
+  opacity: 1;
+  animation-delay: 0s;
+  bottom: 0;
+}
+.wave.wave2 {
+  animation: animate2 15s linear infinite;
+  z-index: 999;
+  opacity: 0.5;
+  animation-delay: -5s;
+  bottom: 10px;
+}
+
+.wave.wave3 {
+  animation: animate 30s linear infinite;
+  z-index: 998;
+  opacity: 0.2;
+  animation-delay: -2s;
+  bottom: 15px;
+}
+.wave.wave4 {
+  animation: animate2 5s linear infinite;
+  z-index: 997;
+  opacity: 0.7;
+  animation-delay: -5s;
+  bottom: 20px;
+}
+@keyframes animate {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: 1000px;
+  }
+}
+a @keyframes animate2 {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: -1000px;
+  }
 }
