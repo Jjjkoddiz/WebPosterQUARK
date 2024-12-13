@@ -304,7 +304,7 @@ body {
   font-size: 3.2vw;
   position: absolute;
   margin-top: 12.5vw;
-  margin-left: 65.4vw;
+  margin-left: 80vw;
   letter-spacing: 0.1em;
 }
 
@@ -327,8 +327,10 @@ span:hover {
 
 .submarine {
   width: 45vw;
+  z-index: 999;
+  background-repeat: no-repeat;
   /* height: 32vw; */
-  margin-top: 25vw;
+  margin-top: 20vw;
   margin-left: 7vw;
   animation: bob 3s cubic-bezier(0.6, 0, 0.4, 1) infinite;
   position: absolute;
@@ -349,7 +351,7 @@ span:hover {
 .sea {
   position: absolute;
   width: 100%;
-  height: 40vw;
+  height: 34vw;
   background: #070707;
   overflow: hidden;
   margin-top: 20%;
@@ -361,30 +363,22 @@ span:hover {
   width: 300%;
   height: 10vw;
   background: url('../images/wave.svg');
-  background-size: 3000px 300px;
+  background-size: 1155px 200px;
 }
 
 .sea .wave.wave1 {
   animation: animate 30s linear infinite;
-  /* z-index: 1000; */
+  z-index: 1000;
   opacity: 1;
   animation-delay: 0s;
   bottom: 0;
 }
 .sea .wave.wave2 {
   animation: animate2 15s linear infinite;
-  z-index: 999;
+  z-index: 998;
   opacity: 0.5;
   animation-delay: -5s;
   bottom: 10px;
-}
-
-.sea .wave.wave3 {
-  animation: animate 30s linear infinite;
-  /* z-index: 998; */
-  opacity: 0.2;
-  animation-delay: -2s;
-  bottom: 15px;
 }
 
 @keyframes animate {
