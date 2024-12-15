@@ -636,3 +636,236 @@ span:hover {
   position: relative;
   overflow-x: hidden;
 }
+
+/* Пятый экран */
+
+.fifth_screen {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.seastar {
+  width: 5vw;
+  animation: starround 6s linear infinite;
+}
+
+.ver_blocks {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+}
+
+.ver_block1 {
+  display: flex;
+  flex-direction: column;
+  gap: 27vw;
+  margin-top: 16vw;
+  margin-left: 2vw;
+}
+
+.ver_block2 {
+  display: flex;
+  flex-direction: column;
+  gap: 88vw;
+  margin-top: 4vw;
+  margin-left: 2vw;
+}
+
+.ver_block3 {
+  display: flex;
+  flex-direction: column;
+  gap: 35vw;
+  margin-top: 29vw;
+  margin-left: 2vw;
+}
+
+.ver_block4 {
+  display: flex;
+  flex-direction: column;
+  gap: 48vw;
+  margin-top: 82vw;
+  margin-left: 2vw;
+}
+
+.ver_block5 {
+  display: flex;
+  flex-direction: column;
+  gap: 40vw;
+  margin-top: 12vw;
+  margin-left: 2vw;
+}
+
+.ver_block6 {
+  display: flex;
+  flex-direction: column;
+  gap: 21vw;
+  margin-top: 20vw;
+  margin-left: 2vw;
+}
+
+.ver_block7 {
+  display: flex;
+  flex-direction: column;
+  gap: 50vw;
+  margin-top: 1vw;
+  margin-left: 2vw;
+}
+
+.ver_block8 {
+  display: flex;
+  flex-direction: column;
+  gap: 20vw;
+  margin-top: 13vw;
+  margin-left: 2vw;
+}
+
+.ver_block9 {
+  display: flex;
+  flex-direction: column;
+  gap: 39vw;
+  margin-top: 5vw;
+  margin-left: 2vw;
+}
+
+.ver_block10 {
+  display: flex;
+  flex-direction: column;
+  gap: 34vw;
+  margin-top: 24vw;
+  margin-left: 2vw;
+}
+
+.ver_block11 {
+  display: flex;
+  flex-direction: column;
+  gap: 62vw;
+  margin-top: 41vw;
+  margin-left: 2vw;
+}
+
+.ver_block12 {
+  display: flex;
+  flex-direction: column;
+  gap: 68vw;
+  margin-top: 19vw;
+  margin-left: 2vw;
+}
+
+.text2 {
+  position: absolute;
+  font-family: 'IBMPlexSans-Light';
+  font-size: 2vw;
+  width: 33vw;
+  margin-top: 38vw;
+  margin-left: 6vw;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #fafafa;
+  -webkit-text-fill-color: #070707; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #fafafa;
+}
+
+.text3 {
+  position: absolute;
+  font-family: 'IBMPlexSans-Light';
+  font-size: 2vw;
+  width: 30vw;
+  margin-top: 75vw;
+  margin-left: 56vw;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #fafafa;
+  -webkit-text-fill-color: #070707; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #fafafa;
+}
+
+.text4 {
+  position: absolute;
+  font-family: 'IBMPlexSans-Light';
+  font-size: 2vw;
+  width: 25vw;
+  margin-top: 140vw;
+  margin-left: 6vw;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #fafafa;
+  -webkit-text-fill-color: #070707; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #fafafa;
+}
+
+.plankton1 {
+  z-index: 2;
+  position: absolute;
+  width: 48vw;
+  margin-top: 4vw;
+  margin-left: 48vw;
+  animation: Drifting 3s cubic-bezier(0.6, 0, 0.4, 1) infinite;
+}
+
+@keyframes Drifting {
+  0% {
+    transform: all 1s;
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: all 1s;
+  }
+}
+
+.phytoplankton {
+  width: 32vw;
+  margin-top: 8vw;
+  margin-left: 6vw;
+  position: absolute;
+  animation: drift 6s ease infinite;
+}
+
+@keyframes drift {
+  0% {
+    transform: all 1s;
+  }
+  50% {
+    transform: translateX(35px);
+  }
+  100% {
+    transform: all 1s;
+  }
+}
+
+.seaweed {
+  width: 4vw;
+  margin-top: 4vw;
+  margin-left: 20vw;
+  position: absolute;
+  animation: float 3s cubic-bezier(0.6, 0, 0.4, 1) infinite;
+}
+
+.phytoplankton2 {
+  width: 15vw;
+  margin-top: 6vw;
+  margin-left: 78svw;
+  position: absolute;
+  animation: drift 6s ease infinite;
+}
+
+.plankton2 {
+  z-index: 2;
+  position: absolute;
+  width: 48vw;
+  margin-top: 53vw;
+  margin-left: 5vw;
+}
+
+.six_screen {
+  width: 100%;
+  height: 6vw;
+  margin-top: 5vw;
+  position: relative;
+  overflow-x: hidden;
+}
