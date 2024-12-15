@@ -300,11 +300,12 @@ body {
   margin-top: 12.5vw;
   margin-left: 65.5vw;
   letter-spacing: 0.1em;
+  position: absolute;
 }
 
 span {
   cursor: pointer;
-  background-image: linear-gradient(0deg, #f9f7f1, #3a00b6);
+  background-image: linear-gradient(0deg, #fafafa, #3a00b6);
   -webkit-text-stroke: 1px #070707;
   -webkit-background-clip: text;
   color: transparent;
@@ -316,7 +317,7 @@ span {
 
 span:hover {
   background-size: 100% 100%;
-  filter: drop-shadow(0 0 5px #f9f7f1);
+  filter: drop-shadow(0 0 5px #fafafa);
 }
 
 .submarine {
@@ -399,12 +400,7 @@ span:hover {
   height: 6vw;
   margin-top: 5vw;
   position: relative;
-}
-
-.container {
-  width: 100%;
-  margin: 0 auto;
-  background: #070707;
+  overflow-x: hidden;
 }
 
 .animatext {
@@ -444,9 +440,11 @@ span:hover {
 }
 
 .curcletext {
+  margin-top: 3vw;
   position: absolute;
-  width: 28vw;
-  margin-left: 20vw;
+  height: 70vw;
+  width: 32vw;
+  margin-left: 32vw;
 }
 
 .submarine1 {
@@ -456,6 +454,102 @@ span:hover {
   position: absolute;
 }
 
+.vertical_blocks {
+  display: flex;
+  flex-direction: row;
+}
+
+.vertical_block1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  margin-top: 3vw;
+  margin-left: 4vw;
+}
+
 .waterstar {
-  width: 15vw;
+  width: 14vw;
+  animation: starround 6s linear infinite;
+}
+
+.waterstar2 {
+  width: 10vw;
+  margin-left: 14vw;
+  animation: starround 6s linear infinite;
+}
+
+.waterstar3 {
+  width: 12vw;
+  margin-left: 19vw;
+  margin-top: 25vw;
+  animation: starround 6s linear infinite;
+}
+
+@keyframes starround {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.vertical_block2 {
+  display: flex;
+  flex-direction: column;
+  gap: 14vw;
+  margin-top: 13vw;
+}
+
+.midwaterstar {
+  width: 6vw;
+  animation: waterstar 8s ease-in-out infinite;
+}
+.midwaterstar1 {
+  margin-left: 15vw;
+}
+.midwaterstar2 {
+  margin-left: 5vw;
+}
+.midwaterstar3 {
+  margin-left: 15vw;
+}
+
+@keyframes waterstar {
+  0% {
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.vertical_block3 {
+  display: flex;
+  flex-direction: column;
+  gap: 6vw;
+  margin-top: 17vw;
+  margin-left: 10vw;
+}
+
+.smallwaterstar {
+  width: 5vw;
+  animation: starround 6s linear infinite;
+}
+
+.smallwaterstar1 {
+  margin-left: 2vw;
+}
+.smallwaterstar2 {
+  margin-left: 20vw;
+}
+.smallwaterstar3 {
+  margin-left: -2vw;
+  margin-top: 7vw;
 }
