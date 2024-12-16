@@ -9,7 +9,7 @@ body {
 /* Первый экран */
 .first_screen {
   width: 100%;
-  height: 50vw;
+  height: 60vw;
   position: relative;
 }
 
@@ -659,7 +659,7 @@ span:hover {
 .ver_block1 {
   display: flex;
   flex-direction: column;
-  gap: 27vw;
+  gap: 30vw;
   margin-top: 16vw;
   margin-left: 2vw;
 }
@@ -667,7 +667,7 @@ span:hover {
 .ver_block2 {
   display: flex;
   flex-direction: column;
-  gap: 88vw;
+  gap: 90vw;
   margin-top: 4vw;
   margin-left: 2vw;
 }
@@ -675,7 +675,7 @@ span:hover {
 .ver_block3 {
   display: flex;
   flex-direction: column;
-  gap: 35vw;
+  gap: 40vw;
   margin-top: 29vw;
   margin-left: 2vw;
 }
@@ -683,7 +683,7 @@ span:hover {
 .ver_block4 {
   display: flex;
   flex-direction: column;
-  gap: 48vw;
+  gap: 50vw;
   margin-top: 82vw;
   margin-left: 2vw;
 }
@@ -691,7 +691,7 @@ span:hover {
 .ver_block5 {
   display: flex;
   flex-direction: column;
-  gap: 40vw;
+  gap: 42vw;
   margin-top: 12vw;
   margin-left: 2vw;
 }
@@ -699,7 +699,7 @@ span:hover {
 .ver_block6 {
   display: flex;
   flex-direction: column;
-  gap: 21vw;
+  gap: 24vw;
   margin-top: 20vw;
   margin-left: 2vw;
 }
@@ -707,7 +707,7 @@ span:hover {
 .ver_block7 {
   display: flex;
   flex-direction: column;
-  gap: 50vw;
+  gap: 52vw;
   margin-top: 1vw;
   margin-left: 2vw;
 }
@@ -715,7 +715,7 @@ span:hover {
 .ver_block8 {
   display: flex;
   flex-direction: column;
-  gap: 20vw;
+  gap: 22vw;
   margin-top: 13vw;
   margin-left: 2vw;
 }
@@ -723,7 +723,7 @@ span:hover {
 .ver_block9 {
   display: flex;
   flex-direction: column;
-  gap: 39vw;
+  gap: 42vw;
   margin-top: 5vw;
   margin-left: 2vw;
 }
@@ -731,7 +731,7 @@ span:hover {
 .ver_block10 {
   display: flex;
   flex-direction: column;
-  gap: 34vw;
+  gap: 37vw;
   margin-top: 24vw;
   margin-left: 2vw;
 }
@@ -739,7 +739,7 @@ span:hover {
 .ver_block11 {
   display: flex;
   flex-direction: column;
-  gap: 62vw;
+  gap: 65vw;
   margin-top: 41vw;
   margin-left: 2vw;
 }
@@ -747,7 +747,7 @@ span:hover {
 .ver_block12 {
   display: flex;
   flex-direction: column;
-  gap: 68vw;
+  gap: 70vw;
   margin-top: 19vw;
   margin-left: 2vw;
 }
@@ -755,14 +755,14 @@ span:hover {
 .text2 {
   position: absolute;
   font-family: 'IBMPlexSans-Light';
-  font-size: 2vw;
-  width: 33vw;
-  margin-top: 38vw;
+  font-size: 2.8vw;
+  width: 40vw;
+  margin-top: 40vw;
   margin-left: 6vw;
   line-height: 1;
   text-transform: uppercase;
   color: #fafafa;
-  -webkit-text-fill-color: #070707; /* Will override color (regardless of order) */
+  -webkit-text-fill-color: #070707;
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: #fafafa;
 }
@@ -770,14 +770,14 @@ span:hover {
 .text3 {
   position: absolute;
   font-family: 'IBMPlexSans-Light';
-  font-size: 2vw;
-  width: 30vw;
-  margin-top: 75vw;
-  margin-left: 56vw;
+  font-size: 2.8vw;
+  width: 40vw;
+  margin-top: 84vw;
+  margin-left: 54vw;
   line-height: 1;
   text-transform: uppercase;
   color: #fafafa;
-  -webkit-text-fill-color: #070707; /* Will override color (regardless of order) */
+  -webkit-text-fill-color: #070707;
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: #fafafa;
 }
@@ -785,14 +785,14 @@ span:hover {
 .text4 {
   position: absolute;
   font-family: 'IBMPlexSans-Light';
-  font-size: 2vw;
-  width: 25vw;
-  margin-top: 140vw;
+  font-size: 2.8vw;
+  width: 35vw;
+  margin-top: 146vw;
   margin-left: 6vw;
   line-height: 1;
   text-transform: uppercase;
   color: #fafafa;
-  -webkit-text-fill-color: #070707; /* Will override color (regardless of order) */
+  -webkit-text-fill-color: #070707;
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: #fafafa;
 }
@@ -857,11 +857,267 @@ span:hover {
 .plankton2 {
   z-index: 2;
   position: absolute;
-  width: 48vw;
-  margin-top: 53vw;
-  margin-left: 5vw;
+  width: 52vw;
+  margin-top: 54vw;
+  animation: linmove 10s infinite linear;
 }
 
+@keyframes linmove {
+  0% {
+    transform: translate(-100%, 0);
+  }
+
+  100% {
+    transform: translate(200%, 0);
+  }
+}
+
+@keyframes drift {
+  0% {
+    transform: all 1s;
+  }
+  50% {
+    transform: translateX(35px);
+  }
+  100% {
+    transform: all 1s;
+  }
+}
+
+.seaweed2 {
+  width: 7vw;
+  margin-top: 70vw;
+  margin-left: 84vw;
+  position: absolute;
+  animation: float 3s cubic-bezier(0.6, 0, 0.4, 1) infinite;
+}
+
+.smallplankton1 {
+  width: 14vw;
+  margin-top: 85vw;
+  margin-left: 8vw;
+  position: absolute;
+  animation: gelatine 0.5s infinite;
+}
+
+@keyframes gelatine {
+  from,
+  to {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    transform: scale(0.95, 1.05);
+  }
+}
+
+.smallplankton2 {
+  width: 9vw;
+  margin-top: 100vw;
+  margin-left: 22vw;
+  position: absolute;
+  animation: shaking 1s ease infinite;
+}
+
+@keyframes shaking {
+  30% {
+    transform: scale(1.2);
+  }
+  40%,
+  60% {
+    transform: rotate(-20deg) scale(1.2);
+  }
+  50% {
+    transform: rotate(20deg) scale(1.2);
+  }
+  70% {
+    transform: rotate(0deg) scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.smallplankton3 {
+  width: 14vw;
+  margin-top: 98vw;
+  margin-left: 41vw;
+  position: absolute;
+  animation: movingupdown 2s ease infinite;
+}
+
+@keyframes movingupdown {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.smallplankton4 {
+  width: 12vw;
+  margin-top: 128vw;
+  margin-left: 12vw;
+  position: absolute;
+  animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.smallplankton5 {
+  width: 15vw;
+  margin-top: 118vw;
+  margin-left: 28vw;
+  position: absolute;
+  animation: moverightleft 2s ease infinite;
+}
+
+@keyframes moverightleft {
+  0% {
+    transform: translateX(0%);
+  }
+  15% {
+    transform: translateX(-25%) rotate(-5deg);
+  }
+  30% {
+    transform: translateX(20%) rotate(3deg);
+  }
+  45% {
+    transform: translateX(-15%) rotate(-3deg);
+  }
+  60% {
+    transform: translateX(10%) rotate(2deg);
+  }
+  75% {
+    transform: translateX(-5%) rotate(-1deg);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.smallplankton6 {
+  z-index: 2;
+  width: 14vw;
+  margin-top: 130vw;
+  margin-left: 46vw;
+  position: absolute;
+  animation: movesquare 2.4s cubic-bezier(0, 0, 0.24, 1.21) infinite;
+}
+
+@keyframes movesquare {
+  0%,
+  100% {
+    transform: none;
+  }
+
+  25% {
+    transform: translateX(50%);
+  }
+
+  50% {
+    transform: translateX(50%) translateY(50%);
+  }
+
+  75% {
+    transform: translateY(50%);
+  }
+}
+
+.smallplankton7 {
+  z-index: 2;
+  width: 10vw;
+  margin-top: 114vw;
+  margin-left: 52vw;
+  position: absolute;
+  animation: scale 1s infinite ease-in-out alternate;
+}
+
+@keyframes scale {
+  from {
+    transform: scale(0.8);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+.plankton3 {
+  z-index: 2;
+  position: absolute;
+  width: 40vw;
+  margin-top: 120vw;
+  margin-left: 90vw;
+  animation: GFG 5s infinite linear;
+}
+
+@keyframes GFG {
+  0% {
+    transform: rotate(45deg) translateY(-100%) rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(170deg) translateY(120%) rotate(360deg);
+  }
+}
+
+.plankton4 {
+  z-index: 2;
+  position: absolute;
+  width: 25vw;
+  margin-top: 153vw;
+  margin-left: 66vw;
+  animation: bounce 2s ease infinite;
+}
+
+@keyframes bounce {
+  from,
+  to {
+    transform: translateY(15vh) scaleY(1.02);
+  }
+  80% {
+    transform: translateY(30vh) scaleY(0.98);
+  }
+}
+
+.circle {
+  width: 4vw;
+  margin-top: 170vw;
+  margin-left: 82vw;
+  position: absolute;
+  animation: opacity 2s ease infinite;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Шестой экран */
 .six_screen {
   width: 100%;
   height: 6vw;
