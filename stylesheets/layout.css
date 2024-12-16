@@ -300,7 +300,6 @@ body {
   margin-top: 12.5vw;
   margin-left: 65.5vw;
   letter-spacing: 0.1em;
-  position: absolute;
 }
 
 span {
@@ -309,6 +308,8 @@ span {
   -webkit-text-stroke: 1px #070707;
   -webkit-background-clip: text;
   color: transparent;
+  position: relative;
+  position: absolute;
   background-repeat: no-repeat;
   background-position: 0% 0%;
   background-size: 0% 100%;
