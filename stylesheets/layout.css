@@ -799,7 +799,7 @@ span:hover {
   z-index: 2;
   position: absolute;
   width: 54vw;
-  margin-top: 1vw;
+  margin-top: 2vw;
   margin-left: 42vw;
   animation: Drifting 3s cubic-bezier(0.6, 0, 0.4, 1) infinite;
 }
