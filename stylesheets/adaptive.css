@@ -95,6 +95,14 @@
 /* ///////////////////////// Средние экраны ///////////////////////// */
 @media screen and (min-width: 1025px) and (max-width: 1366px) and (orientation: portrait) {
   /* Вертикальная ориентация для экранов от 1025px до 1366px */
+  .sea {
+    position: absolute;
+    width: 100%;
+    height: 29vw;
+    background: #070707;
+    overflow: hidden;
+    margin-top: 18%;
+  }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1366px) and (orientation: landscape) {
