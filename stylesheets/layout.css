@@ -401,7 +401,7 @@ span:hover {
 .second_screen {
   width: 100%;
   height: 6vw;
-  margin-top: 5vw;
+  margin-top: 2vw;
   position: relative;
   overflow-x: hidden;
 }
@@ -426,19 +426,11 @@ span:hover {
     transform: translate(-120%, 0);
   }
 }
-/* @keyframes lin {
-  0% {
-    left: 90%;
-  }
-  100% {
-    left: -1%;
-  }
-} */
 
 /* Третий экран */
 .third_screen {
   width: 100%;
-  margin-top: 6vw;
+  margin-top: 3vw;
   position: relative;
 }
 
@@ -645,8 +637,9 @@ span:hover {
 .fifth_screen {
   overflow-x: hidden;
   width: 100%;
+  margin-top: 4vw;
   position: relative;
-  height: 181vw;
+  height: 228vw;
 }
 
 .seastar {
@@ -657,21 +650,22 @@ span:hover {
 .ver_blocks {
   display: flex;
   flex-direction: row;
+  margin-left: 1vw;
   gap: 1vw;
 }
 
 .ver_block1 {
   display: flex;
   flex-direction: column;
-  gap: 30vw;
-  margin-top: 16vw;
+  gap: 37vw;
+  margin-top: 20vw;
   margin-left: 2vw;
 }
 
 .ver_block2 {
   display: flex;
   flex-direction: column;
-  gap: 90vw;
+  gap: 110vw;
   margin-top: 4vw;
   margin-left: 2vw;
 }
@@ -679,23 +673,23 @@ span:hover {
 .ver_block3 {
   display: flex;
   flex-direction: column;
-  gap: 40vw;
-  margin-top: 29vw;
+  gap: 49.5vw;
+  margin-top: 40vw;
   margin-left: 2vw;
 }
 
 .ver_block4 {
   display: flex;
   flex-direction: column;
-  gap: 50vw;
-  margin-top: 82vw;
+  gap: 62vw;
+  margin-top: 106vw;
   margin-left: 2vw;
 }
 
 .ver_block5 {
   display: flex;
   flex-direction: column;
-  gap: 42vw;
+  gap: 58vw;
   margin-top: 12vw;
   margin-left: 2vw;
 }
@@ -703,7 +697,7 @@ span:hover {
 .ver_block6 {
   display: flex;
   flex-direction: column;
-  gap: 24vw;
+  gap: 33.2vw;
   margin-top: 20vw;
   margin-left: 2vw;
 }
@@ -711,7 +705,7 @@ span:hover {
 .ver_block7 {
   display: flex;
   flex-direction: column;
-  gap: 52vw;
+  gap: 68vw;
   margin-top: 1vw;
   margin-left: 2vw;
 }
@@ -719,7 +713,7 @@ span:hover {
 .ver_block8 {
   display: flex;
   flex-direction: column;
-  gap: 22vw;
+  gap: 26.5vw;
   margin-top: 13vw;
   margin-left: 2vw;
 }
@@ -727,31 +721,31 @@ span:hover {
 .ver_block9 {
   display: flex;
   flex-direction: column;
-  gap: 42vw;
-  margin-top: 5vw;
+  gap: 52vw;
+  margin-top: 9vw;
   margin-left: 2vw;
 }
 
 .ver_block10 {
   display: flex;
   flex-direction: column;
-  gap: 37vw;
-  margin-top: 24vw;
+  gap: 49vw;
+  margin-top: 18vw;
   margin-left: 2vw;
 }
 
 .ver_block11 {
   display: flex;
   flex-direction: column;
-  gap: 65vw;
-  margin-top: 41vw;
+  gap: 95vw;
+  margin-top: 42vw;
   margin-left: 2vw;
 }
 
 .ver_block12 {
   display: flex;
   flex-direction: column;
-  gap: 70vw;
+  gap: 93vw;
   margin-top: 19vw;
   margin-left: 2vw;
 }
@@ -761,8 +755,8 @@ span:hover {
   font-family: 'IBMPlexSans-Light';
   font-size: 2.8vw;
   width: 40vw;
-  margin-top: 40vw;
-  margin-left: 6vw;
+  margin-top: 47vw;
+  margin-left: 8vw;
   line-height: 1;
   text-transform: uppercase;
   color: #fafafa;
@@ -776,7 +770,7 @@ span:hover {
   font-family: 'IBMPlexSans-Light';
   font-size: 2.8vw;
   width: 40vw;
-  margin-top: 84vw;
+  margin-top: 88vw;
   margin-left: 54vw;
   line-height: 1;
   text-transform: uppercase;
@@ -791,8 +785,8 @@ span:hover {
   font-family: 'IBMPlexSans-Light';
   font-size: 2.8vw;
   width: 35vw;
-  margin-top: 146vw;
-  margin-left: 6vw;
+  margin-top: 182vw;
+  margin-left: 8vw;
   line-height: 1;
   text-transform: uppercase;
   color: #fafafa;
@@ -804,9 +798,9 @@ span:hover {
 .plankton1 {
   z-index: 2;
   position: absolute;
-  width: 48vw;
-  margin-top: 4vw;
-  margin-left: 48vw;
+  width: 54vw;
+  margin-top: 1vw;
+  margin-left: 42vw;
   animation: Drifting 3s cubic-bezier(0.6, 0, 0.4, 1) infinite;
 }
 
@@ -823,16 +817,16 @@ span:hover {
 }
 
 .phytoplankton {
-  width: 32vw;
-  margin-top: 8vw;
-  margin-left: 6vw;
+  width: 34vw;
+  margin-top: 10vw;
+  margin-left: 8vw;
   position: absolute;
   animation: drift 6s ease infinite;
 }
 
 .phytoplankton3 {
   width: 20vw;
-  margin-top: 122vw;
+  margin-top: 150vw;
   margin-left: 58vw;
   position: absolute;
   animation: drift 6s ease infinite;
@@ -851,7 +845,7 @@ span:hover {
 }
 
 .seaweed {
-  width: 4vw;
+  width: 5vw;
   margin-top: 4vw;
   margin-left: 20vw;
   position: absolute;
@@ -859,9 +853,9 @@ span:hover {
 }
 
 .phytoplankton2 {
-  width: 15vw;
+  width: 18vw;
   margin-top: 6vw;
-  margin-left: 78svw;
+  margin-left: 80vw;
   position: absolute;
   animation: drift 6s ease infinite;
 }
@@ -869,8 +863,8 @@ span:hover {
 .plankton2 {
   z-index: 2;
   position: absolute;
-  width: 52vw;
-  margin-top: 54vw;
+  width: 54vw;
+  margin-top: 58vw;
   animation: linmove 10s infinite linear;
 }
 
@@ -906,7 +900,7 @@ span:hover {
 
 .smallplankton1 {
   width: 14vw;
-  margin-top: 85vw;
+  margin-top: 98vw;
   margin-left: 8vw;
   position: absolute;
   animation: gelatine 0.5s infinite;
@@ -930,7 +924,7 @@ span:hover {
 
 .smallplankton2 {
   width: 9vw;
-  margin-top: 100vw;
+  margin-top: 116vw;
   margin-left: 22vw;
   position: absolute;
   animation: shaking 1s ease infinite;
@@ -957,8 +951,8 @@ span:hover {
 
 .smallplankton3 {
   width: 14vw;
-  margin-top: 98vw;
-  margin-left: 41vw;
+  margin-top: 104vw;
+  margin-left: 38vw;
   position: absolute;
   animation: movingupdown 2s ease infinite;
 }
@@ -981,8 +975,8 @@ span:hover {
 
 .smallplankton4 {
   width: 12vw;
-  margin-top: 128vw;
-  margin-left: 12vw;
+  margin-top: 155vw;
+  margin-left: 14vw;
   position: absolute;
   animation: spin 1s infinite linear;
 }
@@ -998,8 +992,8 @@ span:hover {
 
 .smallplankton5 {
   width: 15vw;
-  margin-top: 118vw;
-  margin-left: 28vw;
+  margin-top: 143vw;
+  margin-left: 30vw;
   position: absolute;
   animation: moverightleft 2s ease infinite;
 }
@@ -1031,8 +1025,8 @@ span:hover {
 .smallplankton6 {
   z-index: 2;
   width: 14vw;
-  margin-top: 130vw;
-  margin-left: 46vw;
+  margin-top: 160vw;
+  margin-left: 42vw;
   position: absolute;
   animation: movesquare 2.4s cubic-bezier(0, 0, 0.24, 1.21) infinite;
 }
@@ -1059,8 +1053,8 @@ span:hover {
 .smallplankton7 {
   z-index: 2;
   width: 10vw;
-  margin-top: 114vw;
-  margin-left: 52vw;
+  margin-top: 134vw;
+  margin-left: 48vw;
   position: absolute;
   animation: scale 1s infinite ease-in-out alternate;
 }
@@ -1096,26 +1090,26 @@ span:hover {
 .plankton4 {
   z-index: 2;
   position: absolute;
-  width: 25vw;
-  margin-top: 139vw;
-  margin-left: 66vw;
+  width: 29vw;
+  margin-top: 190vw;
+  margin-left: 64vw;
   animation: bounce 2s ease infinite;
 }
 
 @keyframes bounce {
   from,
   to {
-    transform: translateY(15vh) scaleY(1.02);
+    transform: translateX(10vh) scaleY(1.02);
   }
   80% {
-    transform: translateY(30vh) scaleY(0.98);
+    transform: translateX(35vh) scaleY(0.98);
   }
 }
 
 .circle {
   width: 4vw;
-  margin-top: 153vw;
-  margin-left: 82vw;
+  margin-top: 209vw;
+  margin-left: 76vw;
   position: absolute;
   animation: opacity 2s ease infinite;
 }
@@ -1130,17 +1124,17 @@ span:hover {
 }
 
 .seaweed3 {
-  width: 4vw;
-  margin-top: 128vw;
-  margin-left: 90vw;
+  width: 5vw;
+  margin-top: 158vw;
+  margin-left: 84vw;
   position: absolute;
   animation: float 3s cubic-bezier(0.6, 0, 0.4, 1) infinite;
 }
 
 .seaweed4 {
-  width: 4vw;
-  margin-top: 164vw;
-  margin-left: 7vw;
+  width: 5vw;
+  margin-top: 204vw;
+  margin-left: 10vw;
   position: absolute;
   animation: float 3s cubic-bezier(0.6, 0, 0.4, 1) infinite;
 }
