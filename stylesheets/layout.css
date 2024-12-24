@@ -290,6 +290,8 @@ body {
 .moon {
   margin-top: 1vw;
   margin-left: 58vw;
+  width: 26vw;
+  height: 26vw;
   position: absolute;
 }
 
