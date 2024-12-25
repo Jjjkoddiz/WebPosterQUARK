@@ -1,40 +1,344 @@
-/* ///////////////////////// Мобильные устройства ///////////////////////// */
-@media screen and (max-width: 414px) and (orientation: portrait) {
+@media screen and (max-width: 430px) {
   .first_screen {
     width: 100%;
     height: 137vw;
     position: relative;
+    overflow-x: hidden;
   }
 
   .star {
     width: 7vw;
     height: 8vw;
   }
+  .star6,
+  .star12,
+  .star7 {
+    display: none;
+  }
+
+  /* .star3,
+  .star12,
+  .star7 {
+    display: none;
+  } */
+
+  .horizontal_block1 {
+    display: flex;
+    flex-direction: row;
+    gap: 28vw;
+    margin-top: 6vw;
+    margin-left: 13vw;
+  }
+
+  .horizontal_block2 {
+    display: flex;
+    flex-direction: row;
+    gap: 16vw;
+    margin-top: 14vw;
+    margin-left: 20vw;
+  }
+
+  .horizontal_block3 {
+    display: flex;
+    flex-direction: row;
+    gap: 23vw;
+    margin-top: 18vw;
+    margin-left: 1vw;
+  }
+
+  .text {
+    font-family: 'IBMPlexSans-Light';
+    font-size: 5vw;
+    position: absolute;
+    margin-top: 29vw;
+    margin-left: 67vw;
+    letter-spacing: 0.1em;
+  }
 
   .moon {
-    margin-top: 1vw;
-    margin-left: 58vw;
-    width: 26vw;
-    height: 26vw;
+    margin-top: 10vw;
+    margin-left: 54vw;
+    width: 44vw;
+    height: 44vw;
     position: absolute;
   }
 
   .submarine {
     width: 100vw;
-    height: 30vw;
+    height: 45vw;
     margin-top: 69vw;
-    margin-left: 30vw;
+    position: absolute;
+    margin-left: auto;
   }
 
   .sea {
-    position: relative;
-    width: 100%;
-    height: 20vw;
+    position: absolute;
+    margin-top: 78%;
+    width: 200%;
+    height: 36vw;
     background: #000000;
     overflow: hidden;
+  }
+
+  .sea .wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 300%;
+    height: 18vw;
+    background: url('../images/wave.svg');
+    background-size: 600px 100px;
+  }
+
+  .second_screen {
+    width: 100%;
+    height: 6vw;
+    margin-top: 1vw;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  .animatext {
+    margin-top: 2vw;
+    white-space: nowrap;
+    animation: lin 9s infinite linear;
+    font-size: 3vw;
+    position: absolute;
+    text-transform: uppercase;
+    color: #fafafa;
+    padding-left: 100%;
+  }
+
+  .third_screen {
+    width: 100%;
+    height: 130vw;
+    margin-top: 3vw;
+    position: relative;
+  }
+
+  .curcletext {
+    margin-top: 20vw;
+    position: absolute;
+    height: 102vw;
+    width: 38vw;
+    margin-left: 32vw;
+    animation: portal 6s ease-in-out infinite;
+  }
+
+  .submarine1 {
+    width: 60vw;
+    margin-top: 45vw;
+    margin-left: 1vw;
+    position: absolute;
+    animation: submarine1move 6s linear infinite;
+    margin-left: -50%;
+  }
+
+  .vertical_block1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    margin-top: 11vw;
+    margin-left: 4vw;
+  }
+
+  .waterstar3 {
+    width: 16vw;
+    margin-left: 19vw;
+    margin-top: 43vw;
+    animation: starround 6s linear infinite;
+  }
+
+  .vertical_block2 {
+    display: flex;
+    flex-direction: column;
+    gap: 24vw;
+    margin-top: 38vw;
+  }
+
+  .midwaterstar1 {
+    margin-left: 12vw;
+  }
+  .midwaterstar2 {
+    margin-left: 3vw;
+  }
+  .midwaterstar3 {
+    margin-left: 12vw;
+  }
+
+  .vertical_block3 {
+    display: flex;
+    flex-direction: column;
+    gap: 6vw;
+    margin-top: 54vw;
+    margin-left: 16vw;
+  }
+
+  .seaweedbig {
+    width: 15vw;
+    margin-top: 95vw;
+    margin-left: 0vw;
+    animation: float 3s cubic-bezier(0.6, 0, 0.4, 1) infinite;
+    position: absolute;
+  }
+
+  .seaweedsmall {
+    width: 4vw;
+    margin-top: 88vw;
+    margin-left: 85vw;
+    animation: float 3s cubic-bezier(0.6, 0, 0.4, 1) infinite;
+    position: absolute;
+  }
+
+  .fourth_screen {
+    width: 100%;
+    height: 6vw;
+    margin-top: 1vw;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  .fifth_screen {
+    overflow-x: hidden;
+    width: 100%;
+    margin-top: 6vw;
+    position: relative;
+    height: 228vw;
+  }
+
+  @keyframes drift {
+    0% {
+      transform: all 1s;
+    }
+    50% {
+      transform: translateX(20px);
+    }
+    100% {
+      transform: all 1s;
+    }
+  }
+
+  @keyframes bounce {
+    from,
+    to {
+      transform: translateX(5vh) scaleY(1.02);
+    }
+    80% {
+      transform: translateX(50vh) scaleY(0.98);
+    }
+  }
+
+  .circle {
+    width: 4vw;
+    margin-top: 209vw;
+    margin-left: 78vw;
+    position: absolute;
+    animation: opacity 2s ease infinite;
+  }
+}
+
+@media screen and (min-width: 431px) and (max-width: 768px) {
+  .first_screen {
+    width: 100%;
+    height: 110vw;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  .star {
+    width: 5vw;
+    height: 6vw;
+  }
+
+  .horizontal_block1 {
+    display: flex;
+    flex-direction: row;
+    gap: 28vw;
+    margin-top: 4vw;
+    margin-left: 13vw;
+  }
+
+  .horizontal_block2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20vw;
+    margin-top: 10vw;
+    margin-left: 20vw;
+  }
+
+  .horizontal_block3 {
+    display: flex;
+    flex-direction: row;
+    gap: 23vw;
+    margin-top: 16vw;
+    margin-left: 1vw;
+  }
+
+  .star3 {
     display: none;
   }
 
+  .moon {
+    margin-top: 7vw;
+    margin-left: 58vw;
+    width: 30vw;
+    height: 30vw;
+    position: absolute;
+  }
+
+  .text {
+    font-family: 'IBMPlexSans-Light';
+    font-size: 3.8vw;
+    position: absolute;
+    margin-top: 20vw;
+    margin-left: 66.2vw;
+    letter-spacing: 0.1em;
+  }
+
+  .submarine {
+    width: 100vw;
+    height: 30vw;
+    margin-top: 65vw;
+    margin-left: -17vw;
+  }
+
+  .sea {
+    position: absolute;
+    width: 200%;
+    height: 30vw;
+    background: #070707;
+    overflow: hidden;
+    margin-top: 68%;
+  }
+  .sea .wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 300%;
+    height: 20vw;
+    background: url('../images/wave.svg');
+    background-size: 800px 200px;
+  }
+
+  @keyframes bounce {
+    from,
+    to {
+      transform: translateX(10vh) scaleY(1.02);
+    }
+    80% {
+      transform: translateX(45vh) scaleY(0.98);
+    }
+  }
+  .circle {
+    width: 4vw;
+    margin-top: 209vw;
+    margin-left: 78vw;
+    position: absolute;
+    animation: opacity 2s ease infinite;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
   .sea {
     position: absolute;
     width: 100%;
@@ -43,70 +347,16 @@
     overflow: hidden;
     margin-top: 22%;
   }
+
   .sea .wave {
-    overflow-y: hidden;
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100%;
-    height: 10vw;
+    width: 300%;
+    height: 13vw;
     background: url('../images/wave.svg');
-    background-size: 400px 200px;
+    background-size: 1155px 200px;
   }
-
-  .sea .wave.wave1 {
-    animation: animate 30s linear infinite;
-    z-index: 1000;
-    opacity: 1;
-    animation-delay: 0s;
-    bottom: 0;
-  }
-  .sea .wave.wave2 {
-    animation: animate2 15s linear infinite;
-    z-index: 998;
-    opacity: 0.5;
-    animation-delay: -5s;
-    bottom: 10px;
-  }
-}
-
-@media screen and (max-width: 414px) and (orientation: landscape) {
-  /* Горизонтальная ориентация для мобильных устройств */
-}
-
-/* ///////////////////////// Планшеты ///////////////////////// */
-@media screen and (min-width: 415px) and (max-width: 768px) and (orientation: portrait) {
-  /* Вертикальная ориентация для планшетов */
-}
-
-@media screen and (min-width: 415px) and (max-width: 768px) and (orientation: landscape) {
-  /* Горизонтальная ориентация для планшетов */
-}
-
-/* ///////////////////////// Маленькие экраны ///////////////////////// */
-@media screen and (min-width: 769px) and (max-width: 1024px) and (orientation: portrait) {
-  /* Вертикальная ориентация для экранов от 769px до 1024px (маленькие экраны) */
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
-  /* Горизонтальная ориентация для экранов от 769px до 1024px (маленькие экраны) */
-}
-
-/* ///////////////////////// Средние экраны ///////////////////////// */
-@media screen and (min-width: 1025px) and (max-width: 1366px) and (orientation: portrait) {
-  /* Вертикальная ориентация для экранов от 1025px до 1366px */
-  .sea {
-    position: absolute;
-    width: 100%;
-    height: 29vw;
-    background: #070707;
-    overflow: hidden;
-    margin-top: 18%;
-  }
-}
-
-@media screen and (min-width: 1025px) and (max-width: 1366px) and (orientation: landscape) {
-  /* Горизонтальная ориентация для экранов от 1025px до 1366px */
 }
 
 /* ///////////////////////// Большие экраны ///////////////////////// */
