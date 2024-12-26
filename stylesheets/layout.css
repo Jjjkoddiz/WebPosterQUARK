@@ -49,7 +49,6 @@ body {
 
 .star1 {
   animation: star1 5s ease-in-out infinite;
-  /* z-index: 2; */
 }
 
 @keyframes star1 {
@@ -69,7 +68,6 @@ body {
 
 .star2 {
   animation: star2 3s ease-in-out infinite;
-  /* z-index: 1; */
 }
 
 @keyframes star2 {
@@ -89,7 +87,6 @@ body {
 
 .star3 {
   animation: star3 2s ease-in-out infinite;
-  /* z-index: 1; */
 }
 
 @keyframes star3 {
@@ -109,7 +106,6 @@ body {
 
 .star4 {
   animation: star4 4s ease-in-out infinite;
-  /* z-index: 1; */
 }
 
 @keyframes star4 {
@@ -129,7 +125,6 @@ body {
 
 .star5 {
   animation: star5 4s ease-in-out infinite;
-  /* z-index: 1; */
 }
 
 @keyframes star5 {
@@ -149,7 +144,6 @@ body {
 
 .star6 {
   animation: star6 9s ease-in-out infinite;
-  /* z-index: 1; */
 }
 
 @keyframes star6 {
@@ -169,7 +163,6 @@ body {
 
 .star7 {
   animation: star7 2s ease-in-out infinite;
-  /* z-index: 1; */
 }
 
 @keyframes star7 {
@@ -189,7 +182,6 @@ body {
 
 .star8 {
   animation: star8 2s ease-in-out infinite;
-  /* z-index: 1; */
 }
 
 @keyframes star8 {
@@ -209,7 +201,6 @@ body {
 
 .star9 {
   animation: star9 6s ease-in-out infinite;
-  /* z-index: 1; */
 }
 
 @keyframes star9 {
@@ -229,7 +220,6 @@ body {
 
 .star10 {
   animation: star10 8s ease-in-out infinite;
-  /* z-index: 1; */
 }
 
 @keyframes star10 {
@@ -249,7 +239,6 @@ body {
 
 .star11 {
   animation: star11 3s ease-in-out infinite;
-  /* z-index: 1; */
 }
 
 @keyframes star11 {
@@ -269,7 +258,6 @@ body {
 
 .star12 {
   animation: star12 5s ease-in-out infinite;
-  /* z-index: 1; */
 }
 
 @keyframes star12 {
@@ -296,26 +284,31 @@ body {
 }
 
 .text {
+  cursor: pointer;
   font-family: 'IBMPlexSans-Light';
-  font-size: 3.2vw;
+  font-size: 3.4vw;
   position: absolute;
   margin-top: 12.5vw;
-  margin-left: 65.5vw;
+  margin-left: 65vw;
   letter-spacing: 0.1em;
+  line-height: 1;
+  -webkit-text-fill-color: #fafafa;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #070707;
 }
 
-span {
-  cursor: pointer;
-  background-image: linear-gradient(0deg, #fafafa, #3a00b6);
-  -webkit-text-stroke: 1px #070707;
-  -webkit-background-clip: text;
-  color: transparent;
-  position: relative;
+.text:hover {
+  font-size: 3.4vw;
   position: absolute;
-  background-repeat: no-repeat;
-  background-position: 0% 0%;
-  background-size: 0% 100%;
-  transition: 0.1s ease-in;
+  margin-top: 12.5vw;
+  margin-left: 65vw;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  -webkit-text-fill-color: #3a00b6;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #070707;
+  background-size: 100% 100%;
+  filter: drop-shadow(0 0 10px #3a00b6);
 }
 
 span:hover {
@@ -329,11 +322,11 @@ span:hover {
   background-repeat: no-repeat;
   margin-top: 22.5vw;
   margin-left: 7vw;
-  animation: bob 3s cubic-bezier(0.6, 0, 0.4, 1) infinite;
+  animation: sail 3s cubic-bezier(0.6, 0, 0.4, 1) infinite;
   position: absolute;
 }
 
-@keyframes bob {
+@keyframes sail {
   0% {
     transform: all 1s;
   }
@@ -353,6 +346,7 @@ span:hover {
   overflow: hidden;
   margin-top: 22%;
 }
+
 .sea .wave {
   position: absolute;
   bottom: 0;
