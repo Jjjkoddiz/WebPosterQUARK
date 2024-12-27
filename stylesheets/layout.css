@@ -304,11 +304,11 @@ body {
   margin-left: 65vw;
   letter-spacing: 0.1em;
   line-height: 1;
-  -webkit-text-fill-color: #3a00b6;
+  -webkit-text-fill-color: #070707;
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: #070707;
   background-size: 100% 100%;
-  filter: drop-shadow(0 0 10px #3a00b6);
+  filter: drop-shadow(0 0 13px #070707);
 }
 
 span:hover {
