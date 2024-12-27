@@ -1066,7 +1066,7 @@ span:hover {
   z-index: 2;
   position: absolute;
   width: 40vw;
-  margin-top: 120vw;
+  margin-top: 125vw;
   margin-left: 90vw;
   animation: GFG 5s infinite linear;
 }
