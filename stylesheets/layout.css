@@ -1067,7 +1067,7 @@ span:hover {
   position: absolute;
   width: 40vw;
   margin-top: 125vw;
-  margin-left: 90vw;
+  margin-left: 92vw;
   animation: GFG 5s infinite linear;
 }
 
@@ -1093,17 +1093,17 @@ span:hover {
 @keyframes bounce {
   from,
   to {
-    transform: translateX(10vh) scaleY(1.02);
+    transform: translateX(13vh) scaleY(1.02);
   }
   80% {
-    transform: translateX(35vh) scaleY(0.98);
+    transform: translateX(45vh) scaleY(0.98);
   }
 }
 
 .circle {
   width: 4vw;
   margin-top: 209vw;
-  margin-left: 76vw;
+  margin-left: 78vw;
   position: absolute;
   animation: opacity 2s ease infinite;
 }

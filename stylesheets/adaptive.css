@@ -363,7 +363,7 @@
   @keyframes bounce {
     from,
     to {
-      transform: translateX(10vh) scaleY(1.02);
+      transform: translateX(13vh) scaleY(1.02);
     }
     80% {
       transform: translateX(55vh) scaleY(0.98);
