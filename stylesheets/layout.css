@@ -1066,9 +1066,9 @@ span:hover {
   z-index: 2;
   position: absolute;
   width: 40vw;
-  margin-top: 135vw;
+  margin-top: 130vw;
   margin-left: 95vw;
-  animation: GFG 5s infinite linear;
+  animation: GFG 6s infinite linear;
 }
 
 @keyframes GFG {
@@ -1077,7 +1077,7 @@ span:hover {
   }
 
   50% {
-    transform: rotate(165deg) translate(-5vw, 50vw);
+    transform: rotate(165deg) translate(-10vw, 50vw);
   }
 
   100% {
